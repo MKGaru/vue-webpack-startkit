@@ -14,8 +14,8 @@
 </template>
 
 <script lang="ts">
-import hello from './hello'
-import counter from './counter'
+import hello from '../hello'
+import counter from '../counter'
 
 export default {
 	data(){
