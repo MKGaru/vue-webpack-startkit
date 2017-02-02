@@ -5,11 +5,12 @@
 </style>
 
 <template>
-<p>
+<div>
+	<img src="./logo.png">
 	<hello :name=msg />
 	<counter />
 	<input type="text" v-model="msg" />
-</p>
+</div>
 </template>
 
 <script lang="ts">
