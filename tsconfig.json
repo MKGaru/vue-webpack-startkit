@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"module": "es6",
+		"target": "es5",
+		"experimentalDecorators": true,
+		"moduleResolution": "node",
+		"noImplicitAny": false,
+		"importHelpers": true,
+		"sourceMap": false,
+		"outDir": "dist",
+		"rootDir": "src",
+		"lib": [
+			"es2015",
+			"dom"
+		]
+	},
+	"filesGlob": [
+		"**/*.ts"
+	],
+	"compileOnSave": false
+}

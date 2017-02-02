@@ -1,0 +1,37 @@
+{
+  "name": "vue-webpack-startkit",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "dev": "webpack-dev-server",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "?"
+  },
+  "keywords": [
+    "?"
+  ],
+  "author": "?",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.15",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.26.1",
+    "glob": "^7.1.1",
+    "html-webpack-plugin": "^2.28.0",
+    "ts-loader": "^2.0.0",
+    "tslib": "^1.5.0",
+    "typescript": "^2.1.5",
+    "vue": "^2.1.10",
+    "vue-hot-reload-api": "^2.0.8",
+    "vue-loader": "^10.2.0",
+    "vue-template-compiler": "^2.1.10",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.2.0"
+  }
+}
