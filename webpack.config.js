@@ -60,8 +60,24 @@ module.exports = {
 				]
 			},
 			{
-				test: /\.(woff|woff2|eot|ttf)$/,
+				test: /\.svg$/,
+				loader: 'url-loader?mimetype=image/svg+xml'
+			},
+			{
+				test: /\.(woff|woff2)$/,
 				loader: 'url-loader?mimetype=application/font-woff'
+			},
+			{
+				test: /\.otf$/,
+				loader: 'url-loader?mimetype=application/x-font-otf'
+			},
+			{
+				test: /\.eot$/,
+				loader: 'url-loader?mimetype=application/vnd.ms-fontobject'
+			},
+			{
+				test: /\.ttf$/,
+				loader: 'url-loader?mimetype=application/x-font-ttf'
 			}
 		]
 	},
