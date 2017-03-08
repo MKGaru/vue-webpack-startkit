@@ -4,7 +4,7 @@ import app from '../components/app/app'
 // avoid hmr bug
 self['cssModules'] = void 0;
 
-new (Vue['default'] || Vue)({
+new Vue({
 	el: 'app',
 	...app
 })

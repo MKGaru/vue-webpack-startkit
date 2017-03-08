@@ -30,10 +30,10 @@
     "tslib": "^1.6.0",
     "typescript": "^2.2.1",
     "url-loader": "^0.5.8",
-    "vue": "^2.2.1",
+    "vue": "~2.1",
     "vue-hot-reload-api": "^2.0.11",
-    "vue-loader": "^11.1.4",
-    "vue-template-compiler": "^2.2.1",
+    "vue-loader": "~11",
+    "vue-template-compiler": "~2.1",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.4.1"
   }
