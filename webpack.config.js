@@ -58,6 +58,10 @@ module.exports = {
 					'style-loader',
 					'css-loader?importLoaders=1'
 				]
+			},
+			{
+				test: /\.(woff|woff2|eot|ttf)$/,
+				loader: 'url-loader?mimetype=application/font-woff'
 			}
 		]
 	},
